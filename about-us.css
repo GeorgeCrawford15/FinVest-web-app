@@ -61,3 +61,75 @@ body {
     font-weight: normal;
     font-size: 50px;
 }
+
+<style>
+.founders-section {
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.founders-title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.founder-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.founder {
+    text-align: center; /* Corrected typo */
+    padding: 20px;
+}
+.founder-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+.tech-head-section {
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+.tech-head-title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.tech-head-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.tech-head {
+    text-align: center; 
+    padding: 20px;
+}
+.tech-head-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+h2 {
+    background-color: #388E3C; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
+.founders-title h1,
+.tech-head-title h1 {
+    font-weight: normal;
+}
+</style>
