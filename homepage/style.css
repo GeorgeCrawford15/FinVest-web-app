@@ -95,18 +95,45 @@ body {
     padding: 0 25px;
 } */
 
-#indian-flag, #american-flag {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    object-fit: cover;
-    object-position: left;
-}
-
-
 .image-container {
     display: flex;
     justify-content: space-around;
+}
+
+#indian-flag {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 10px;
+}
+
+#american-flag {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 10px;
+}
+
+#usa-button {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+#india-button {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
 
 .branches h2 {

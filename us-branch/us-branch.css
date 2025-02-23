@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: antiquewhite;
 }
 
 .navbar {
@@ -55,11 +56,16 @@ body {
     transition: 0.2s;
 }
 
-.slogan {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size: 50px;
+.american-flag {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
 }
 
 .founders-section {
@@ -67,30 +73,43 @@ body {
     margin-top: 50px;
     padding: 20px;
 }
+
 .founders-title {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 60px;
     margin-top: 20px;
 }
+
 .founder-profiles {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .founder {
     text-align: center; /* Corrected typo */
     padding: 20px;
 }
+
 .founder-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
+h2 {
+    background-color: #388E3C; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    display: inline-block; 
+}
 
 .tech-head-section {
     justify-content: center;
@@ -119,15 +138,4 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
-}
-h2 {
-    background-color: #388E3C; 
-    color: white; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    display: inline-block; 
-}
-.founders-title h1,
-.tech-head-title h1 {
-    font-weight: normal;
 }
