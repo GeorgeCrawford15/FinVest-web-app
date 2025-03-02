@@ -210,10 +210,12 @@ body {
 
 .what-we-provide p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 50px;
     margin-left: 400px;
     margin-right: 400px;
+    text-align: center;
+    line-height: 1.8;
 }
 
 .what-we-provide-to-our-courses {
