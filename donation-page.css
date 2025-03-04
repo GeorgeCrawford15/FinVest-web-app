@@ -69,36 +69,34 @@ h1 {
 }
 
 .first-paragraph {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
     font-size: 30px;
     width: 800px;
     line-height: 1.4;
-    background: linear-gradient(
-        to right, 
-        rgb(168, 153, 212), 
-        rgb(208, 234, 237) 50%);
+    background-color: rgb(13, 160, 0, 0.7);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
+    text-align: center;
 }
 
 .second-paragraph {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     width: 800px;
     line-height: 1.4;
-    background: linear-gradient(
-        to right, 
-        rgb(208, 234, 237) 50%, 
-        rgb(168, 154, 212));
+    background-color: rgb(13, 160, 0, 0.7);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
+    color: white;
 }
 
 .second-paragraph p {
     text-align: center;
     margin-bottom: 60px;
+    font-size: 35px;
 }
 
 .second-paragraph ul {
@@ -118,19 +116,17 @@ h1 {
 
 .final-message {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     margin-top: 50px;
-    background: linear-gradient(
-        to top, 
-        rgb(168, 154, 212),
-        rgb(208, 234, 237) 90%);
+    background-color: rgb(13, 160, 0, 0.7);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 .first-paragraph, .second-paragraph, .final-message {
@@ -164,5 +160,5 @@ h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(133, 155, 155);
     transition: 0.2s;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 2px 2px black;
 }
