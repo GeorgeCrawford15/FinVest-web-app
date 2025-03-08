@@ -311,6 +311,78 @@ body {
 
 .visible-button:hover {
     background: rgb(13, 160, 0);
-    transition: 0.2s;
-    
+    transition: 0.2s;    
+}
+
+@media (max-width: 1200px) {
+    .nav-links li {
+        padding: 5px;
+    }
+    #indian-flag {
+        width: 90%;
+        max-width: 500px;
+        height: 300px;
+        object-position: center;
+    }
+    #american-flag {
+        width: 90%;
+        max-width: 500px;
+        height: 300px;
+        object-position: center;
+    }
+    .what-we-do h3 {
+        font-size: 40px;
+    }
+    .what-we-do ul li {
+        font-size: 35px;
+    }
+    .what-we-do ul li span {
+        font-size: 20px;
+        width: 250px;
+    }
+    .what-we-provide p {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav-links li a {
+        font-size: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .what-we-do ul li {
+        font-size: 30px;
+    }
+    .what-we-do ul li span {
+        font-size: 20px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links li a {
+        font-size: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+    .navbar p {
+        font-size: 25px;
+    }
+    .mission-statement {
+        font-size: 25px;
+        margin: 10px 10px;
+    }
+    .what-we-do ul li {
+        font-size: 30px;
+    }
+    .what-we-do ul li span {
+        font-size: 20px;
+        width: 150px;
+    }
 }

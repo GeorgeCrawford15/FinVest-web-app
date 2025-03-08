@@ -71,7 +71,6 @@ body {
 .founders-title {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -97,15 +96,40 @@ body {
     margin-top: 10px;
 }
 
+.leaders-section {
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.leaders-title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.leader-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leader {
+    text-align: center; 
+    padding: 20px;
+}
+
 .tech-head-section {
     justify-content: center;
     margin-top: 50px;
     padding: 20px;
 }
+
 .tech-head-title {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -133,6 +157,7 @@ h2 {
     display: inline-block; 
 }
 .founders-title h1,
-.tech-head-title h1 {
+.tech-head-title h1,
+.leaders-title h1 {
     font-weight: normal;
 }
