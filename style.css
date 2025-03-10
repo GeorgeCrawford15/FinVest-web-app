@@ -17,6 +17,10 @@ body {
     width: 100px;
 }
 
+.home-link {
+    text-decoration: none;
+}
+
 .navbar p {
     color: rgb(1, 128, 1);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -314,6 +318,13 @@ body {
     transition: 0.2s;    
 }
 
+@media (max-width: 1500px) {
+    .course img,
+    .course-description {
+        width: 350px;
+    }
+}
+
 @media (max-width: 1200px) {
     .nav-links li {
         padding: 5px;
@@ -340,9 +351,26 @@ body {
         font-size: 20px;
         width: 250px;
     }
+    .what-we-provide h3 {
+        font-size: 40px;
+    }
     .what-we-provide p {
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .our-courses h3 {
+        font-size: 40px;
+    }
+    .course img,
+    .course-description {
+        width: 270px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .course img,
+    .course-description {
+        width: 230px;
     }
 }
 
@@ -358,6 +386,10 @@ body {
     .what-we-do ul li span {
         font-size: 20px;
         width: 150px;
+    }
+    .course img,
+    .course-description {
+        width: 200px;
     }
 }
 
@@ -384,5 +416,27 @@ body {
     .what-we-do ul li span {
         font-size: 20px;
         width: 150px;
+    }
+    .visible-button {
+        display: none;
+    }
+    .invisible-button {
+        display: none;
+    }
+    .course img,
+    .course-description {
+        width: 150px;
+    }
+    .course img {
+        border-radius: 10px;
+    }
+    .course-description {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 14px;
+        height: 170px;
+    }
+    .course-description span {
+        font-size: 20px;
     }
 }
