@@ -74,11 +74,11 @@ h1 {
 
 .first-paragraph {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: black;
     font-size: 30px;
     width: 800px;
     line-height: 1.4;
-    background-color: rgb(13, 160, 0, 0.7);
+    background-color: rgba(205, 205, 205, 0.7);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
@@ -90,11 +90,11 @@ h1 {
     font-size: 30px;
     width: 800px;
     line-height: 1.4;
-    background-color: rgb(13, 160, 0, 0.7);
+    background-color: rgba(205, 205, 205, 0.7);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
-    color: white;
+    color: black;
 }
 
 .second-paragraph p {
@@ -123,14 +123,14 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     margin-top: 50px;
-    background-color: rgb(13, 160, 0, 0.7);
+    background-color: rgba(205, 205, 205, 0.7);
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: black;
 }
 
 .first-paragraph, .second-paragraph, .final-message {
@@ -140,6 +140,7 @@ h1 {
 .first-paragraph:hover, .second-paragraph:hover, .final-message:hover {
     scale: 1.01;
     transition: 0.4s;
+    background-color: rgba(173, 173, 173, 0.7);
 }
 
 .gofundme-container {
