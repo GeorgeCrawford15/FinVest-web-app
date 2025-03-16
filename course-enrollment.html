@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment</title>
+    <link rel="stylesheet" href="course-enrollment.css">
+</head>
+<body>
+    <navbar>
+        <div class="navbar">
+            <a href="index.html" class="home-link">
+                <img src="https://i.ibb.co/PGDDDkCS/finvest-logo.png" alt="Finvest Logo" class="logo">
+            </a>
+            <a href="index.html" class="home-link">
+                <p>FinVest</p>
+            </a>
+        </div>
+    </navbar>
+    <header>
+        <h1>Course Enrollment</h1>
+    </header>
+    <main>
+        <h2>Investment 101</h2>
+        <p class="course-description">
+            Well, you know, like, sometimes, um, things, uh, happen, right? 
+            So, basically, I mean, it's kind of, sort of, like, a thing, you see? 
+            And, you know, really, actually, just, you know, it's, like, a situation, if you will. 
+            So, like, yeah, basically, um, you know, that's, like, how it is, I guess. 
+            Well, you know, like, sometimes, um, things, uh, happen, right? 
+            So, basically, I mean, it's kind of, sort of, like, a thing, you see? 
+            And, you know, really, actually, just, you know, it's, like, a situation, if you will. 
+            So, like, yeah, basically, um, you know, that's, like, how it is, I guess.
+        </p>
+        <p>Confirm your name and email to enroll in the course:</p>
+        <form action="" method="post">
+            <div class="label-input-container">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="label-input-container">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div class="label-input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Enroll</button>
+            <input type="hidden" name="course" value="Investment 101">
+        </form>
+    </main>
+</body>
+</html>
