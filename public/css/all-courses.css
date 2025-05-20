@@ -35,6 +35,17 @@ h2 {
     margin-top: 50px;
 }
 
+.course-list a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.course-list a:hover {
+    color: #72b1ae;
+    transition: 0.2s;
+}
+
 .course img {
     width: 450px;
     border-radius: 10px;

@@ -57,7 +57,7 @@ p a {
     text-decoration: none;
 }
 
-.course-description {
+#course-description {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Enrollment</title>
-    <link rel="stylesheet" href="course-enrollment.css">
+    <title>Sign Up - FinVest</title>
+    <link rel="stylesheet" href="../css/sign-up.css">
 </head>
 <body>
     <navbar>
@@ -18,22 +18,10 @@
         </div>
     </navbar>
     <header>
-        <h1>Course Enrollment</h1>
+        <h1>Create an Account</h1>
     </header>
     <main>
-        <h2>Investment 101</h2>
-        <p class="course-description">
-            Well, you know, like, sometimes, um, things, uh, happen, right? 
-            So, basically, I mean, it's kind of, sort of, like, a thing, you see? 
-            And, you know, really, actually, just, you know, it's, like, a situation, if you will. 
-            So, like, yeah, basically, um, you know, that's, like, how it is, I guess. 
-            Well, you know, like, sometimes, um, things, uh, happen, right? 
-            So, basically, I mean, it's kind of, sort of, like, a thing, you see? 
-            And, you know, really, actually, just, you know, it's, like, a situation, if you will. 
-            So, like, yeah, basically, um, you know, that's, like, how it is, I guess.
-        </p>
-        <p>Confirm your name and email to enroll in the course:</p>
-        <form action="" method="post">
+        <form>
             <div class="label-input-container">
                 <label for="firstname">First Name:</label>
                 <input type="text" id="firstname" name="firstname" required>
@@ -46,9 +34,18 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            <button type="submit">Enroll</button>
-            <input type="hidden" name="course" value="Investment 101">
+            <div class="label-input-container">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="label-input-container">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit">Sign Up</button>
         </form>
+        <p><a href="login.html">I Already Have an Account</a></p>
     </main>
+       
 </body>
 </html>

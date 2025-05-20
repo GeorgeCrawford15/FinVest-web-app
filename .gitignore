@@ -1,0 +1,24 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Node modules (if you add npm packages later)
+node_modules/
+
+# Build directories (if using build tools later)
+dist/
+build/
+
+# Environment files (if needed)
+.env
+.env.*
+
+# VSCode settings (optional)
+.vscode/
+
+# npm or yarn lock files (if you don't want to track them)
+package-lock.json
+yarn.lock
