@@ -18,6 +18,10 @@ body {
     width: 100px;
 }
 
+.home-link {
+    text-decoration: none;
+}
+
 .navbar p {
     color: rgb(1, 128, 1);
     font-family:Georgia, 'Times New Roman', Times, serif;
