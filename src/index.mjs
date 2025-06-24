@@ -26,13 +26,14 @@ mongoose.connect(process.env.MONGO_URI)
 app.post('/enroll', async (request, response) => {
     const { firstName, lastName, email } = request.body;
     const { country } = request.query;
+    const { course } = request.query;
 
-    if (!firstName || !lastName || !email || !country) {
-        return response.status(400).json({ message: 'Messing required fields' });
+    if (!firstName || !lastName || !email || !country || !course) {
+        return response.status(400).json({ message: 'Missing required fields' });
     }
 
     try {
-        const newUser = new User({ firstName, lastName, email, country });
+        const newUser = new User({ firstName, lastName, email, country, course });
         await newUser.save();
         response.status(201).json({ message: 'User enrolled successfully!' });
     } catch (error) {
