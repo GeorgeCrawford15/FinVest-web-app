@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Enrollment</title>
     <link rel="stylesheet" href="../css/course-enrollment.css">
-    <script src="../js/courses.js"></script>
 </head>
 <body>
     <navbar>
@@ -25,7 +24,7 @@
         <h2 id="course-title">Investment 101</h2>
         <p id="course-description"></p>
         <p>Confirm your name and email to enroll in the course:</p>
-        <form action="/submit" method="post">
+        <form id="enrollment-form">
             <div class="label-input-container">
                 <label for="firstname">First Name:</label>
                 <input type="text" id="firstname" name="firstname" required>
@@ -41,5 +40,8 @@
             <button type="submit">Enroll</button>
         </form>
     </main>
+
+    <script src="../js/courses.js"></script>
+    <script src="../js/enroll.js"></script>
 </body>
 </html>
