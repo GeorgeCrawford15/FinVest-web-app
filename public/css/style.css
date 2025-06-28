@@ -399,8 +399,8 @@ body {
     }
     .nav-links li a {
         font-size: 13px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
     .navbar img {
         width: 50px;
