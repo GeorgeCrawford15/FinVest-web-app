@@ -137,15 +137,19 @@ body {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .tech-head-profiles {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .tech-head {
     text-align: center; 
     padding: 20px;
 }
+
 .tech-head-image {
     width: 200px;
     height: 200px;
@@ -153,6 +157,7 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
 h2 {
     background-color: #388E3C; 
     color: white; 
@@ -160,8 +165,60 @@ h2 {
     border-radius: 5px; 
     display: inline-block; 
 }
+
 .founders-title h1,
 .tech-head-title h1,
 .leaders-title h1 {
     font-weight: normal;
+}
+
+@media (max-width: 1200px) {
+    .nav-links li {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav-links li a {
+        font-size: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .slogan {
+        font-size: 40px;
+    }
+    .founder-info h2,
+    .leader-info h2,
+    .tech-head-info h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        margin-right: -10px;
+    }
+    .nav-links li a {
+        font-size: 13px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .navbar img {
+        width: 50px;
+        height: 50px;
+    }
+    .navbar p {
+        font-size: 20px;
+    }
+    .slogan {
+        font-size: 30px;
+    }
+    .founder-profiles,
+    .leader-profiles,
+    .tech-head-profiles {
+        flex-direction: column;
+    }
 }
