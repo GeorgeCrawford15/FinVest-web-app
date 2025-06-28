@@ -1,6 +1,58 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/pages/index.html"
+    },
+    {
+      "source": "/about-us.html",
+      "destination": "/pages/about-us.html"
+    },
+    {
+      "source": "/all-courses.html",
+      "destination": "/pages/all-courses.html"
+    },
+    {
+      "source": "/course-enrollment.html",
+      "destination": "/pages/course-enrollment.html"
+    },
+    {
+      "source": "/donation-page.html",
+      "destination": "/pages/donation-page.html"
+    },
+    {
+      "source": "/india-branch.html",
+      "destination": "/pages/india-branch.html"
+    },
+    {
+      "source": "/us-branch.html",
+      "destination": "/pages/us-branch.html"
+    },
+    {
+      "source": "/about-us",
+      "destination": "/pages/about-us.html"
+    },
+    {
+      "source": "/all-courses",
+      "destination": "/pages/all-courses.html"
+    },
+    {
+      "source": "/course-enrollment",
+      "destination": "/pages/course-enrollment.html"
+    },
+    {
+      "source": "/donation-page",
+      "destination": "/pages/donation-page.html"
+    },
+    {
+      "source": "/india-branch",
+      "destination": "/pages/india-branch.html"
+    },
+    {
+      "source": "/us-branch",
+      "destination": "/pages/us-branch.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/pages/index.html"
     }
