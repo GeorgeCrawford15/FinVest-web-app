@@ -63,7 +63,7 @@ h2 {
     border-radius: 10px;
     border-top-right-radius: 50px;
     margin: 0;
-    z-index: -10;
+    z-index: 0;
     box-shadow: 6px 6px beige;
 }
 
@@ -81,7 +81,7 @@ h2 {
     color: white;
     padding: 20px;
     margin-top: -10px;
-    z-index: 10;
+    z-index: 1;
     position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
@@ -110,7 +110,6 @@ h2 {
 .indian-courses:hover, .us-courses:hover {
     scale: 1.01;
     border: 0.5px solid white;
-    border-radius: 35px;
     transition: 0.5s;
 }
 
@@ -164,13 +163,13 @@ h2 {
         gap: 50px;
     }
     .course img {
-        width: 130%;
+        width: 115%;
     }
     .course-description span {
         font-size: 30px;
     }
     .course-description {
-        width: 130%;
+        width: 115%;
         font-size: 18px;
     }
 }
