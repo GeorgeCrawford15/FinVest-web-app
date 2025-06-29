@@ -7,9 +7,9 @@ const courseDictUS = {
         title: 'Finance 101',
         description: 'Finance 101 introduces students to the fundamental principles of finance and the role it plays in both personal and business contexts. The course provides a comprehensive overview of financial concepts such as time value of money, risk and return, interest rates, investment analysis, and the basics of corporate and personal finance.'
     },
-    'personal-finance-101': {
-        title: 'Personal Finance 101',
-        description: 'Personal Finance 101 is a practical, hands-on course designed to equip students with the knowledge and skills needed to make smart, confident financial decisions throughout life. This course covers essential topics like budgeting, saving, managing debt, understanding credit, and planning for major life expenses such as college, a car, or retirement.'
+    'marketing-101': {
+        title: 'Marketing 101',
+        description: 'Marketing 101 is a practical, hands-on course designed to equip students with the knowledge and skills needed to make smart, confident financial decisions throughout life. This course covers essential topics like budgeting, saving, managing debt, understanding credit, and planning for major life expenses such as college, a car, or retirement.'
     },
 }
 
@@ -22,9 +22,9 @@ const courseDictIndia = {
         title: 'Finance 101',
         description: 'Finance 101 introduces students to the fundamental principles of finance and the role it plays in both personal and business contexts. The course provides a comprehensive overview of financial concepts such as time value of money, risk and return, interest rates, investment analysis, and the basics of corporate and personal finance.'
     },
-    'personal-finance-101': {
-        title: 'Personal Finance 101',
-        description: 'Personal Finance 101 is a practical, hands-on course designed to equip students with the knowledge and skills needed to make smart, confident financial decisions throughout life. This course covers essential topics like budgeting, saving, managing debt, understanding credit, and planning for major life expenses such as college, a car, or retirement.'
+    'marketing-101': {
+        title: 'Marketing 101',
+        description: 'Marketing 101 is a practical, hands-on course designed to equip students with the knowledge and skills needed to make smart, confident financial decisions throughout life. This course covers essential topics like budgeting, saving, managing debt, understanding credit, and planning for major life expenses such as college, a car, or retirement.'
     },
 }
 
