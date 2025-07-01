@@ -448,16 +448,27 @@ body {
         margin: 10px 10px;
     }
     .branches {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+    }
+    .branches h2 {
+        margin-bottom: 30px;
     }
     .image-container {
         flex-direction: column;
     }
     #american-flag {
-        height: 90%;
+        height: 70%;
+        margin-bottom: 10px;
     }
     #indian-flag {
-        height: 90%;
+        height: 70%;
+        margin-top: 10px;
+    }
+    #usa-button {
+        height: 70%;
+    }
+    #india-button {
+        height: 70%;
     }
     .what-we-do h3,
     .what-we-provide h3,
