@@ -53,6 +53,14 @@
       "destination": "/pages/us-branch.html"
     },
     {
+      "source": "/course-info.html",
+      "destination": "/pages/course-info.html"
+    },
+    {
+      "source": "/course-info",
+      "destination": "/pages/course-info.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/pages/index.html"
     }
