@@ -447,6 +447,18 @@ body {
         font-size: 25px;
         margin: 10px 10px;
     }
+    .branches {
+        padding-bottom: 10px;
+    }
+    .image-container {
+        flex-direction: column;
+    }
+    #american-flag {
+        height: 90%;
+    }
+    #indian-flag {
+        height: 90%;
+    }
     .what-we-do h3,
     .what-we-provide h3,
     .our-courses h3 {
