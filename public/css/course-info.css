@@ -14,13 +14,11 @@ body {
 
 .navbar {
     display: flex;
-    align-items: center;
-    margin: 10px 0 30px 0;
+    margin: 10px;
 }
 
 .logo {
-    width: 80px;
-    margin-left: 20px;
+    width: 100px;
 }
 
 .home-link {
@@ -30,9 +28,9 @@ body {
 .navbar p {
     color: rgb(3, 150, 3);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
-    margin-left: 18px;
-    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 .nav-links {
@@ -212,6 +210,9 @@ main {
 
 /* Responsive styles */
 @media (max-width: 1000px) {
+    .nav-links li {
+        padding: 5px;
+    }
     main {
         padding: 20px 8px 40px 8px;
     }
@@ -225,6 +226,14 @@ main {
 }
 
 @media (max-width: 700px) {
+    .nav-links {
+        margin-right: -10px;
+    }
+    .nav-links li a {
+        font-size: 13px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
     main {
         padding: 10px 2vw 30px 2vw;
     }
